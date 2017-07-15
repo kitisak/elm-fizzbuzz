@@ -19,6 +19,12 @@ suite =
                 3
                   |> say
                   |> Expect.equal "Fizz"
+          , test "5 พูดว่า Buzz" <|
+            \() ->
+                5
+                  |> say
+                  |> Expect.equal "Buzz"
+
 
           ]
       ]
