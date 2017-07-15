@@ -3,6 +3,8 @@ module FizzbuzzSpec exposing (..)
 import Test exposing (..)
 import Expect
 
+import Fizzbuzz exposing (say)
+
 suite : Test
 suite =
     describe "Try TDD with Elm"
